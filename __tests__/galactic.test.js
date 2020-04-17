@@ -7,4 +7,8 @@ test("it should create a new Calculator object" , () => {
   let calculator = new Calculator;
   expect(calculator).toEqual({})
 })
+ test("it should be able to creat an new user object", () => {
+   let user = new user1;
+   expect(user).toEqual({})
+ })
 })
