@@ -14,12 +14,16 @@ describe ("User", () => {
 test("it should create a object called user", () => {
   let user = new User;
   expect(user).toEqual({})
-
 });
 test ("it should use the object user and calculate earth age", () => {
-  expect(user.earthA).toEqual(30)
+  expect(user.earthA).toEqual(30);
+});
+test ("it should show users inputted age in Mercury years" , () => {
+  expect(user.mercuryA).toEqual(48.4);
+
 })
 });
+
 
 
 
