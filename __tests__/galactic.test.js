@@ -1,5 +1,5 @@
 import { Calculator } from './../src/backend-calc.js'
-
+import { User} from './../src/backend-calc.js'
 
 describe ("Calculator", () => {
 
@@ -8,7 +8,7 @@ test("it should create a new Calculator object" , () => {
   expect(calculator).toEqual({})
 })
  test("it should be able to creat an new user object", () => {
-   let user = new user1;
+   let user = new User;
    expect(user).toEqual({})
  })
 })
