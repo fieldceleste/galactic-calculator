@@ -8,20 +8,21 @@ describe ("User", () => {
 
   beforeEach(() => {
     ageInput = 30;
-    user= new User(ageInput);
+    user = new User(ageInput);
 
   });
-test("it should create a object called user", () => {
-  let user = new User;
-  expect(user).toEqual({})
-});
+// test("it should create a object called user", () => {
+//   let user = new User;
+//   expect(user).toEqual({})
+// });
 test ("it should use the object user and calculate earth age", () => {
+  expect(new User()).toBeInstanceOf(User);
   expect(user.earthA).toEqual(30);
 });
 test ("it should show users inputted age in Mercury years" , () => {
-  expect(user.mercuryA).toEqual(48.4);
+  expect(user.mercuryA).toEqual(125);
 
-})
+  });
 });
 
 
