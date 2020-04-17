@@ -3,12 +3,19 @@ import { User } from './../src/backend-calc.js'
 
 describe ("User", () => {
 
-test("it should create a new Calculator object" , () => {
-  let user = new User;
+  // let ageInput;
+  // let user;
+  // beforeEach(() => {
+  //   ageInput = 30;
+  //   user= newUser(ageInput);
+
+  // });
+test("it should create a object called user" , () => {
+  let user = new User1;
   expect(user).toEqual({})
 
-})
-})
+});
+});
 
 
 
