@@ -28,7 +28,7 @@ describe("User", () => {
     
   });
   test("it should show users inputted age in Mars years" , () => {
-    expect(user.marsA).toBeCloseTo(15.9, 1);
+    expect(user.marsA).toBeCloseTo(15.96, 1);
   });
 });
 

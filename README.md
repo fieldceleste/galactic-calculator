@@ -41,7 +41,7 @@ _No known bugs at this time_
 | It will take users age and turn it into earth years.  | 30 | 30 Earth years |√| 
 | It will take users age in earth years and display age in Mercury years.(A Mercury year is .24 Earth years.) | 30 | 125 Mercury years |√|
 | It will take users age in earth years and display age in Venus years. (A Venus year is .62 Earth years.) | 30 | 48.4 Venus years |√|
-| It will take a users age in earth years  and display age in Mars years. (A Mars year is 1.88 Earth years.) | 30 | 15.9 Mars years |
+| It will take a users age in earth years  and display age in Mars years. (A Mars year is 1.88 Earth years.) | 30 | 15.9 Mars years |√|
 | It will take a users age in earth years and display age in Jupitar years. (A Jupiter year is 11.86 Earth years.) | 30 | 2.53 Jupiter years |
 | It will take users life expectancy age for their demographic and will minus it from their current age, to show many years left they have to live. (White female averge age: 81 years) | 30 | 51 Earth years left |
 | It will take users life expectancy years left and display their years left on Mercury. | 30 - Current year | 212.5 Mercury years left |
