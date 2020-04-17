@@ -24,7 +24,8 @@ describe("User", () => {
 
   });
   test("it should show users inputted age in Venus years", () => {
-    expect(user.venusA).toEqual(48.4);
+    expect(user.venusA).toBeCloseTo(48.38, 1);
+    
   });
 });
 
