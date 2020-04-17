@@ -3,18 +3,22 @@ import { User } from './../src/backend-calc.js'
 
 describe ("User", () => {
 
-  // let ageInput;
-  // let user;
-  // beforeEach(() => {
-  //   ageInput = 30;
-  //   user= newUser(ageInput);
+  let ageInput;
+  let user;
 
-  // });
-test("it should create a object called user" , () => {
+  beforeEach(() => {
+    ageInput = 30;
+    user= newUser(ageInput);
+
+  });
+test("it should create a object called user", () => {
   let user = new User;
   expect(user).toEqual({})
 
 });
+test ("it should use the object user and calculate earth age", () => {
+  expect(user.earthA).toEqual(25)
+})
 });
 
 
