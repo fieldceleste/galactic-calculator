@@ -11,7 +11,7 @@ describe ("User", () => {
 
   // });
 test("it should create a object called user" , () => {
-  let user = new User1;
+  let user = new User;
   expect(user).toEqual({})
 
 });
