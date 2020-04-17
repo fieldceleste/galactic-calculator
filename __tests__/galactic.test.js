@@ -8,7 +8,7 @@ describe ("User", () => {
 
   beforeEach(() => {
     ageInput = 30;
-    user= newUser(ageInput);
+    user= new User(ageInput);
 
   });
 test("it should create a object called user", () => {
@@ -17,7 +17,7 @@ test("it should create a object called user", () => {
 
 });
 test ("it should use the object user and calculate earth age", () => {
-  expect(user.earthA).toEqual(25)
+  expect(user.earthA).toEqual(30)
 })
 });
 
