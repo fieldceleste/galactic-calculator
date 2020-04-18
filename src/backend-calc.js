@@ -1,5 +1,5 @@
 export class User {
-  constructor (age, ) {
+  constructor (age) {
     this.earthA = age;
     this.mercuryA = this.calMercAge();
     this.venusA = this.calVenusAge();
@@ -31,7 +31,7 @@ lifeCheck() {
 }
 remainLife() {
   let lifeExpectEarth = this.avergLife;
-  this.remainEarth = (lifeExpectEarth - this.earthA).toFixed(1);
+  this.remainEarth = (lifeExpectEarth - this.earthA).toFixed(0);
 
 }
 

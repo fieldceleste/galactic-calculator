@@ -9,7 +9,7 @@ describe("User", () => {
   beforeEach(() => {
     ageInput = 30;
     user = new User(ageInput);
-    
+
 
 
   });
@@ -35,8 +35,8 @@ describe("User", () => {
   test("it should show users inputted age in Jupitar years" , () => {
     expect(user.jupitarA).toBeCloseTo(2.53, 1);
   });
-  test("it should show the life expectancy in remaining years on each planet" , () => {  
-    expect(user.remainEarth).toEqual(51);
+  test("it should show the life expectancy in remaining years on each planet" , () => { user.lifeCheck();
+    expect(user.remainEarth).toEqual("61");
   });
 
 });
