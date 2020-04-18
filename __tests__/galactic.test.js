@@ -10,6 +10,7 @@ describe("User", () => {
     ageInput = 30;
     user = new User(ageInput);
 
+
   });
   // test("it should create a object called user", () => {
   //   let user = new User;
@@ -33,6 +34,9 @@ describe("User", () => {
   test("it should show users inputted age in Jupitar years" , () => {
     expect(user.jupitarA).toBeCloseTo(2.53, 1);
   });
+  test("it should show the life expectancy in remaining years on each planet" , () => {  expect(user.remainE).toEqual(51);
+  });
+
 });
 
 
