@@ -47,7 +47,7 @@ _No known bugs at this time_
 | It will take users life expectancy years left and display their years left on Mercury. | 30 - Current year | 213 Mercury years left |√|
 | It will take users life expectancy years left and display their years left on Venus. | 30 - Current year | 82.3 Venus years left |√|
 | It will take users life expectancy years left and display their years left on Mars. | 30 - Current year | 27.1 Mars years left |√|
-| It will take users life expectancy years left and display their years left on Mars. | 30 - Current year  | 4.3 Jupiter years left |
+| It will take users life expectancy years left and display their years left on Mars. | 30 - Current year  | 4.3 Jupiter years left |√|
 | If the user inputs their age and it's higher than the averge life expectancy, it will return how many years past that they have lived. | 91  | 10 years longer than expected, congrats!|
 
 ## Legal

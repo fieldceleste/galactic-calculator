@@ -28,7 +28,7 @@ remainLife() {
   this.remainMerc = (this.remainEarth / .24 ).toFixed(0);
   this.remainVenus =(this.remainEarth / .62 ).toFixed(0);
   this.remainMars = (this.remainEarth / 1.88).toFixed(0);
-  this.remainJupitar = (this.remainEarth / 11.86).toFixed(0);
+  this.remainJup = (this.remainEarth / 11.86).toFixed(0);
 }
 
 
