@@ -30,6 +30,9 @@ describe("User", () => {
   test("it should show users inputted age in Mars years" , () => {
     expect(user.marsA).toBeCloseTo(15.96, 1);
   });
+  test("it should show users inputted age in Jupitar years" , () => {
+    expect(user.jupitarA).toBeCloseTo(2.53, 1);
+  });
 });
 
 
