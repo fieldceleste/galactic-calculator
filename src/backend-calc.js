@@ -26,7 +26,7 @@ remainLife() {
   let lifeExpectEarth = this.avergLife;
   this.remainEarth = (lifeExpectEarth - this.earthA).toFixed(0);
   this.remianMerc = (this.remainEarth / .24 ).toFixed(0);
-
+  this.remianVenus =(this.remainVenus / .62 ).toFixed(0);
 }
 
 
