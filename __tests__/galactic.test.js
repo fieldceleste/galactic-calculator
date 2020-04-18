@@ -40,6 +40,7 @@ describe("User", () => {
     expect(user.remainMerc).toEqual("213");
     expect(user.remainVenus).toEqual("82");
     expect(user.remainMars).toEqual("27");
+    expect(user.remainJup).toEqual("4.3");
   });
  
 
