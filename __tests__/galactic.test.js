@@ -39,6 +39,7 @@ describe("User", () => {
     expect(user.remainEarth).toEqual("51");
     expect(user.remainMerc).toEqual("213");
     expect(user.remainVenus).toEqual("82");
+    expect(user.remianMars).toEqual("27.1");
   });
  
 
