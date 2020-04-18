@@ -37,7 +37,7 @@ describe("User", () => {
   });
   test("it should show the life expectancy in remaining years on each planet" , () => { user.lifeCheck();
     expect(user.remainEarth).toEqual("51");
-    expect(user.remianMerc).toEqual("212.5");
+    expect(user.remianMerc).toEqual("213");
   });
  
 
