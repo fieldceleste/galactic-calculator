@@ -6,6 +6,7 @@ export class User {
     this.marsA = this.calMarsAge();
     this.jupitarA = this.calJupAge();
     this.avergLife = 81;
+    this.olderAge = 91;
   }
 
 calMercAge() {
@@ -23,8 +24,8 @@ calJupAge(){
 
 
 remainLife() {
-  let lifeExpectEarth = this.avergLife;
-  this.remainEarth = (lifeExpectEarth - this.earthA).toFixed(0);
+  let lifeExpEarth = this.avergLife;
+  this.remainEarth = (lifeExpEarth - this.earthA).toFixed(0);
   this.remainMerc = (this.remainEarth / .24 ).toFixed(0);
   this.remainVenus =(this.remainEarth / .62 ).toFixed(0);
   this.remainMars = (this.remainEarth / 1.88).toFixed(0);
@@ -33,7 +34,10 @@ remainLife() {
 
 
 
-
+surpassLife(){
+  let lifeExpEarth = this.avergLife;
+  this.xLifeEarth = (lifeExpEarth-this.earthA).toFixed(0);
+}
 
 
 

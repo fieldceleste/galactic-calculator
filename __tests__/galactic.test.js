@@ -5,6 +5,7 @@ describe("User", () => {
 
   let ageInput;
   let user;
+  let olderUser;
 
   beforeEach(() => {
     ageInput = 30;
@@ -42,9 +43,13 @@ describe("User", () => {
     expect(user.remainMars).toEqual("27");
     expect(user.remainJup).toEqual("4");
   });
- 
-
+ test ("it should show the users remianing life expectancy on each planet,when they exceed the average age" , () => {
+   olderUser.checkLife();
+   let olderUser = new User(91);
+   expect(olderUser.lifeSurpEarth).toBe("10");
+ });
 });
+
 
 
 
